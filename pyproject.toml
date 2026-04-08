@@ -1,0 +1,10 @@
+[project]
+name = "csrenv"
+version = "0.1.0"
+description = "Customer Support OpenEnv Environment"
+authors = [
+    {name = "GAURI AGRAWAL"}
+]
+
+[tool.openenv]
+entry_point = "env.environment:CSREnv"
