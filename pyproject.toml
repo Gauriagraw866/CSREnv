@@ -8,3 +8,6 @@ authors = [
 
 [tool.openenv]
 entry_point = "env.environment:CSREnv"
+
+[project.scripts]
+server = "app:app"
