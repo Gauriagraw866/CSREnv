@@ -5,6 +5,12 @@ description = "Customer Support OpenEnv Environment"
 authors = [
     {name = "GAURI AGRAWAL"}
 ]
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "openai>=2.7.2",
+    "openenv-core>=0.2.0"
+]
 
 [tool.openenv]
 entry_point = "env.environment:CSREnv"
