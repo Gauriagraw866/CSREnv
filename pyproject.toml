@@ -10,4 +10,4 @@ authors = [
 entry_point = "env.environment:CSREnv"
 
 [project.scripts]
-server = "app:app"
+server = "server.app:main"
