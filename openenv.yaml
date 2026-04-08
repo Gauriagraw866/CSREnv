@@ -1,0 +1,17 @@
+name: csrenv
+version: 1.0
+entry_point: env.environment:CSREnv
+
+observation_space:
+  type: object
+
+action_space:
+  type: discrete
+  actions:
+    - check_order_status
+    - check_payment
+    - initiate_refund
+    - escalate_issue
+    - respond_user
+
+reward_range: [0.0, 1.0]
